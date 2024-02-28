@@ -1,0 +1,7 @@
+[ Do not halt the extractor here
+S0
+M12C16	 	[ SPINDLE STOP ]
+M12C12		[Tool Release PB OFF
+M12C13		[[Tool Release OFF Software Control
+M12C18		[Blow Through OFF
+M99

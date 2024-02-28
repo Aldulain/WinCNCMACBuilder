@@ -1,0 +1,3 @@
+L60C3 			[turn docking pins off]
+M98 DOCKP-DWN.mac 	[put them down
+L61C4 			[set toggle has happend bit ON

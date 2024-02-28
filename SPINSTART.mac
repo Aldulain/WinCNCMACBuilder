@@ -1,0 +1,11 @@
+M17.2 C12
+M98 SpinRunError.mac
+M17.2 C13
+M98 ToolReleaseError.mac
+M98 DOCKP-DWN.mac	
+M98 EXTR-ON.mac	
+M12C12		[Tool Release PB OFF
+M12C13		[Tool Release OFF Software Control
+M11C16		[SPINDLE START
+M11C18		[Blow Through START
+M99
