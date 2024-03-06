@@ -10,7 +10,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
         <CursorPos X="15" Y="10"/>
-        <UsageCount Value="60"/>
+        <UsageCount Value="64"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -20,8 +20,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uMain"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="234"/>
         <CursorPos X="31" Y="115"/>
-        <UsageCount Value="60"/>
+        <UsageCount Value="64"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -31,7 +33,7 @@
         <UnitName Value="uProcessEngine"/>
         <EditorIndex Value="1"/>
         <CursorPos Y="218"/>
-        <UsageCount Value="57"/>
+        <UsageCount Value="61"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -40,7 +42,7 @@
         <UnitName Value="uCNCGcodes"/>
         <EditorIndex Value="3"/>
         <CursorPos Y="23"/>
-        <UsageCount Value="57"/>
+        <UsageCount Value="61"/>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
@@ -49,7 +51,7 @@
         <UnitName Value="uCNCTypes"/>
         <EditorIndex Value="5"/>
         <CursorPos X="57" Y="220"/>
-        <UsageCount Value="57"/>
+        <UsageCount Value="61"/>
         <Loaded Value="True"/>
       </Unit4>
       <Unit5>
@@ -58,18 +60,17 @@
         <UnitName Value="uCNCLMCodes"/>
         <EditorIndex Value="4"/>
         <CursorPos X="29" Y="115"/>
-        <UsageCount Value="53"/>
+        <UsageCount Value="57"/>
         <Loaded Value="True"/>
       </Unit5>
       <Unit6>
         <Filename Value="uprocessviewpost.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uProcessViewPost"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="6"/>
-        <TopLine Value="77"/>
+        <TopLine Value="15"/>
         <CursorPos Y="109"/>
-        <UsageCount Value="50"/>
+        <UsageCount Value="54"/>
         <Loaded Value="True"/>
       </Unit6>
       <Unit7>

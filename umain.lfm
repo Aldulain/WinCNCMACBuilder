@@ -7,9 +7,9 @@ object frmMain: TfrmMain
   ClientHeight = 768
   ClientWidth = 1366
   Color = 1708303
-  Font.Color = clBlack
+  Font.Color = clWhite
   Font.Height = -15
-  Font.Name = 'BankGothic'
+  Font.Name = 'Nexa Extra Light'
   Font.Quality = fqCleartype
   Icon.Data = {
     A65F010000000100040080800000010020002808010046000000404000000100
@@ -2857,10 +2857,10 @@ object frmMain: TfrmMain
       TabOrder = 0
       object btnMenuClose: TBCButton
         Cursor = crHandPoint
-        Left = 1
-        Height = 94
-        Top = 671
-        Width = 92
+        Left = 7
+        Height = 80
+        Top = 679
+        Width = 80
         Align = alBottom
         StateClicked.Background.Color = 15728640
         StateClicked.Background.Gradient1.StartColor = 15728640
@@ -2878,27 +2878,27 @@ object frmMain: TfrmMain
         StateClicked.Background.Gradient2.Point2XPercent = 50
         StateClicked.Background.Gradient2.Point2YPercent = 40
         StateClicked.Background.Gradient1EndPercent = 50
-        StateClicked.Background.Style = bbsGradient
+        StateClicked.Background.Style = bbsColor
         StateClicked.Border.Color = 8409856
         StateClicked.Border.Style = bboNone
         StateClicked.FontEx.Color = clBlack
         StateClicked.FontEx.FontQuality = fqFineAntialiasing
-        StateClicked.FontEx.Name = 'Arial'
+        StateClicked.FontEx.Name = 'Nexa Extra Light'
         StateClicked.FontEx.Shadow = False
         StateClicked.FontEx.ShadowRadius = 2
         StateClicked.FontEx.ShadowOffsetX = 1
         StateClicked.FontEx.ShadowOffsetY = 1
         StateClicked.FontEx.Style = [fsBold]
-        StateHover.Background.Color = 9914165
-        StateHover.Background.Gradient1.StartColor = 6762532
-        StateHover.Background.Gradient1.EndColor = 15728640
+        StateHover.Background.Color = 15728640
+        StateHover.Background.Gradient1.StartColor = 15728640
+        StateHover.Background.Gradient1.EndColor = 1708303
         StateHover.Background.Gradient1.GradientType = gtLinear
         StateHover.Background.Gradient1.Point1XPercent = 50
         StateHover.Background.Gradient1.Point1YPercent = 0.100000001490116
         StateHover.Background.Gradient1.Point2XPercent = 50
         StateHover.Background.Gradient1.Point2YPercent = 60
-        StateHover.Background.Gradient2.StartColor = 6762532
-        StateHover.Background.Gradient2.EndColor = 15728640
+        StateHover.Background.Gradient2.StartColor = 15728640
+        StateHover.Background.Gradient2.EndColor = 1708303
         StateHover.Background.Gradient2.GradientType = gtLinear
         StateHover.Background.Gradient2.Point1XPercent = 50
         StateHover.Background.Gradient2.Point1YPercent = 100
@@ -2906,8 +2906,9 @@ object frmMain: TfrmMain
         StateHover.Background.Gradient2.Point2YPercent = 40
         StateHover.Background.Gradient1EndPercent = 50
         StateHover.Background.Style = bbsGradient
-        StateHover.Border.Color = 8409856
-        StateHover.Border.Style = bboNone
+        StateHover.Border.Color = 15728640
+        StateHover.Border.Style = bboSolid
+        StateHover.Border.Width = 3
         StateHover.FontEx.Color = clBlack
         StateHover.FontEx.FontQuality = fqFineAntialiasing
         StateHover.FontEx.Name = 'Arial'
@@ -2916,7 +2917,7 @@ object frmMain: TfrmMain
         StateHover.FontEx.ShadowOffsetX = 1
         StateHover.FontEx.ShadowOffsetY = 1
         StateHover.FontEx.Style = [fsBold]
-        StateNormal.Background.Color = 15728640
+        StateNormal.Background.Color = 1708303
         StateNormal.Background.Gradient1.StartColor = 8409856
         StateNormal.Background.Gradient1.EndColor = 9855488
         StateNormal.Background.Gradient1.GradientType = gtLinear
@@ -2932,9 +2933,10 @@ object frmMain: TfrmMain
         StateNormal.Background.Gradient2.Point2XPercent = 0
         StateNormal.Background.Gradient2.Point2YPercent = 40
         StateNormal.Background.Gradient1EndPercent = 50
-        StateNormal.Background.Style = bbsColor
-        StateNormal.Border.Color = 8409856
-        StateNormal.Border.Style = bboNone
+        StateNormal.Background.Style = bbsClear
+        StateNormal.Border.Color = 15728640
+        StateNormal.Border.Style = bboSolid
+        StateNormal.Border.Width = 3
         StateNormal.FontEx.Color = clWhite
         StateNormal.FontEx.FontQuality = fqFineAntialiasing
         StateNormal.FontEx.Name = 'Arial'
@@ -2943,6 +2945,7 @@ object frmMain: TfrmMain
         StateNormal.FontEx.ShadowOffsetX = 1
         StateNormal.FontEx.ShadowOffsetY = 1
         StateNormal.FontEx.Style = [fsBold]
+        BorderSpacing.Around = 6
         Color = clNone
         DropDownWidth = 16
         DropDownArrowSize = 8
@@ -3594,13 +3597,14 @@ object frmMain: TfrmMain
       TabOrder = 1
       object pnlProcToolBar: TPanel
         Left = 0
-        Height = 40
+        Height = 42
         Top = 0
         Width = 1270
         Align = alTop
+        AutoSize = True
         BevelColor = 15728640
         BevelOuter = bvSpace
-        ClientHeight = 40
+        ClientHeight = 42
         ClientWidth = 1270
         Font.Color = clBlack
         Font.Height = -13
@@ -3611,14 +3615,13 @@ object frmMain: TfrmMain
         object btnProcNew: TBCButton
           AnchorSideLeft.Control = pnlProcToolBar
           AnchorSideTop.Control = pnlProcToolBar
-          AnchorSideTop.Side = asrCenter
           Cursor = crHandPoint
           Left = 11
           Height = 32
-          Top = 4
-          Width = 73
+          Top = 5
+          Width = 87
           AutoSize = True
-          StateClicked.Background.Color = 8344320
+          StateClicked.Background.Color = 15728640
           StateClicked.Background.Gradient1.StartColor = 11760640
           StateClicked.Background.Gradient1.EndColor = 8344320
           StateClicked.Background.Gradient1.GradientType = gtLinear
@@ -3634,43 +3637,51 @@ object frmMain: TfrmMain
           StateClicked.Background.Gradient2.Point2XPercent = 50
           StateClicked.Background.Gradient2.Point2YPercent = 40
           StateClicked.Background.Gradient1EndPercent = 50
-          StateClicked.Background.Style = bbsGradient
-          StateClicked.Border.Style = bboNone
+          StateClicked.Background.Style = bbsColor
+          StateClicked.Border.Color = 15728640
+          StateClicked.Border.Style = bboSolid
+          StateClicked.Border.Width = 3
           StateClicked.FontEx.Color = clWhite
           StateClicked.FontEx.FontQuality = fqSystemClearType
-          StateClicked.FontEx.Name = 'Arial'
+          StateClicked.FontEx.Height = 15
+          StateClicked.FontEx.Name = 'Nexa Extra Light'
           StateClicked.FontEx.Shadow = False
           StateClicked.FontEx.ShadowRadius = 2
           StateClicked.FontEx.ShadowOffsetX = 1
           StateClicked.FontEx.ShadowOffsetY = 1
           StateClicked.FontEx.Style = [fsBold]
-          StateHover.Background.Color = 6762532
-          StateHover.Background.Gradient1.StartColor = 9914165
-          StateHover.Background.Gradient1.EndColor = 6762532
+          StateClicked.FontEx.PaddingRight = 4
+          StateHover.Background.Color = 15728640
+          StateHover.Background.Gradient1.StartColor = 15728640
+          StateHover.Background.Gradient1.EndColor = 1708303
           StateHover.Background.Gradient1.GradientType = gtLinear
           StateHover.Background.Gradient1.Point1XPercent = 50
           StateHover.Background.Gradient1.Point1YPercent = 0.100000001490116
           StateHover.Background.Gradient1.Point2XPercent = 50
           StateHover.Background.Gradient1.Point2YPercent = 60
-          StateHover.Background.Gradient2.StartColor = 9914165
-          StateHover.Background.Gradient2.EndColor = 6762532
+          StateHover.Background.Gradient2.StartColor = 15728640
+          StateHover.Background.Gradient2.EndColor = 1708303
           StateHover.Background.Gradient2.GradientType = gtLinear
           StateHover.Background.Gradient2.Point1XPercent = 50
           StateHover.Background.Gradient2.Point1YPercent = 100
           StateHover.Background.Gradient2.Point2XPercent = 50
-          StateHover.Background.Gradient2.Point2YPercent = 40
+          StateHover.Background.Gradient2.Point2YPercent = 30
           StateHover.Background.Gradient1EndPercent = 50
           StateHover.Background.Style = bbsGradient
-          StateHover.Border.Style = bboNone
+          StateHover.Border.Color = 15728640
+          StateHover.Border.Style = bboSolid
+          StateHover.Border.Width = 3
           StateHover.FontEx.Color = clWhite
           StateHover.FontEx.FontQuality = fqSystemClearType
-          StateHover.FontEx.Name = 'Arial'
+          StateHover.FontEx.Height = 15
+          StateHover.FontEx.Name = 'Nexa Extra Light'
           StateHover.FontEx.Shadow = False
           StateHover.FontEx.ShadowRadius = 2
           StateHover.FontEx.ShadowOffsetX = 1
           StateHover.FontEx.ShadowOffsetY = 1
           StateHover.FontEx.Style = [fsBold]
-          StateNormal.Background.Color = 6762532
+          StateHover.FontEx.PaddingRight = 4
+          StateNormal.Background.Color = 1708303
           StateNormal.Background.Gradient1.StartColor = 4194304
           StateNormal.Background.Gradient1.EndColor = 8405056
           StateNormal.Background.Gradient1.GradientType = gtLinear
@@ -3686,17 +3697,24 @@ object frmMain: TfrmMain
           StateNormal.Background.Gradient2.Point2XPercent = 0
           StateNormal.Background.Gradient2.Point2YPercent = 0
           StateNormal.Background.Gradient1EndPercent = 60
-          StateNormal.Background.Style = bbsColor
-          StateNormal.Border.Style = bboNone
+          StateNormal.Background.Style = bbsClear
+          StateNormal.Border.Color = 15728640
+          StateNormal.Border.Style = bboSolid
+          StateNormal.Border.Width = 3
           StateNormal.FontEx.Color = clWhite
           StateNormal.FontEx.FontQuality = fqSystemClearType
-          StateNormal.FontEx.Name = 'Arial'
+          StateNormal.FontEx.Height = 15
+          StateNormal.FontEx.Name = 'Nexa Extra Light'
           StateNormal.FontEx.Shadow = False
           StateNormal.FontEx.ShadowRadius = 2
           StateNormal.FontEx.ShadowOffsetX = 1
           StateNormal.FontEx.ShadowOffsetY = 1
           StateNormal.FontEx.Style = [fsBold]
+          StateNormal.FontEx.PaddingRight = 4
           BorderSpacing.Left = 10
+          BorderSpacing.Top = 4
+          BorderSpacing.Right = 10
+          BorderSpacing.Bottom = 4
           Caption = 'New'
           Color = clNone
           DropDownWidth = 16
@@ -3793,14 +3811,13 @@ object frmMain: TfrmMain
           AnchorSideLeft.Control = btnProcNew
           AnchorSideLeft.Side = asrBottom
           AnchorSideTop.Control = pnlProcToolBar
-          AnchorSideTop.Side = asrCenter
           Cursor = crHandPoint
-          Left = 94
+          Left = 108
           Height = 32
-          Top = 4
-          Width = 87
+          Top = 5
+          Width = 107
           AutoSize = True
-          StateClicked.Background.Color = 8344320
+          StateClicked.Background.Color = 15728640
           StateClicked.Background.Gradient1.StartColor = 11760640
           StateClicked.Background.Gradient1.EndColor = 8344320
           StateClicked.Background.Gradient1.GradientType = gtLinear
@@ -3816,43 +3833,51 @@ object frmMain: TfrmMain
           StateClicked.Background.Gradient2.Point2XPercent = 50
           StateClicked.Background.Gradient2.Point2YPercent = 40
           StateClicked.Background.Gradient1EndPercent = 50
-          StateClicked.Background.Style = bbsGradient
-          StateClicked.Border.Style = bboNone
+          StateClicked.Background.Style = bbsColor
+          StateClicked.Border.Color = 15728640
+          StateClicked.Border.Style = bboSolid
+          StateClicked.Border.Width = 3
           StateClicked.FontEx.Color = clWhite
           StateClicked.FontEx.FontQuality = fqSystemClearType
-          StateClicked.FontEx.Name = 'Arial'
+          StateClicked.FontEx.Height = 15
+          StateClicked.FontEx.Name = 'Nexa Extra Light'
           StateClicked.FontEx.Shadow = False
           StateClicked.FontEx.ShadowRadius = 2
           StateClicked.FontEx.ShadowOffsetX = 1
           StateClicked.FontEx.ShadowOffsetY = 1
           StateClicked.FontEx.Style = [fsBold]
-          StateHover.Background.Color = 6762532
-          StateHover.Background.Gradient1.StartColor = 9914165
-          StateHover.Background.Gradient1.EndColor = 6762532
+          StateClicked.FontEx.PaddingRight = 4
+          StateHover.Background.Color = 15728640
+          StateHover.Background.Gradient1.StartColor = 15728640
+          StateHover.Background.Gradient1.EndColor = 1708303
           StateHover.Background.Gradient1.GradientType = gtLinear
           StateHover.Background.Gradient1.Point1XPercent = 50
           StateHover.Background.Gradient1.Point1YPercent = 0.100000001490116
           StateHover.Background.Gradient1.Point2XPercent = 50
           StateHover.Background.Gradient1.Point2YPercent = 60
-          StateHover.Background.Gradient2.StartColor = 9914165
-          StateHover.Background.Gradient2.EndColor = 6762532
+          StateHover.Background.Gradient2.StartColor = 15728640
+          StateHover.Background.Gradient2.EndColor = 1708303
           StateHover.Background.Gradient2.GradientType = gtLinear
           StateHover.Background.Gradient2.Point1XPercent = 50
           StateHover.Background.Gradient2.Point1YPercent = 100
           StateHover.Background.Gradient2.Point2XPercent = 50
-          StateHover.Background.Gradient2.Point2YPercent = 40
+          StateHover.Background.Gradient2.Point2YPercent = 30
           StateHover.Background.Gradient1EndPercent = 50
           StateHover.Background.Style = bbsGradient
-          StateHover.Border.Style = bboNone
+          StateHover.Border.Color = 15728640
+          StateHover.Border.Style = bboSolid
+          StateHover.Border.Width = 3
           StateHover.FontEx.Color = clWhite
           StateHover.FontEx.FontQuality = fqSystemClearType
-          StateHover.FontEx.Name = 'Arial'
+          StateHover.FontEx.Height = 15
+          StateHover.FontEx.Name = 'Nexa Extra Light'
           StateHover.FontEx.Shadow = False
           StateHover.FontEx.ShadowRadius = 2
           StateHover.FontEx.ShadowOffsetX = 1
           StateHover.FontEx.ShadowOffsetY = 1
           StateHover.FontEx.Style = [fsBold]
-          StateNormal.Background.Color = 6762532
+          StateHover.FontEx.PaddingRight = 4
+          StateNormal.Background.Color = 1708303
           StateNormal.Background.Gradient1.StartColor = 4194304
           StateNormal.Background.Gradient1.EndColor = 8405056
           StateNormal.Background.Gradient1.GradientType = gtLinear
@@ -3868,17 +3893,24 @@ object frmMain: TfrmMain
           StateNormal.Background.Gradient2.Point2XPercent = 0
           StateNormal.Background.Gradient2.Point2YPercent = 0
           StateNormal.Background.Gradient1EndPercent = 60
-          StateNormal.Background.Style = bbsColor
-          StateNormal.Border.Style = bboNone
+          StateNormal.Background.Style = bbsClear
+          StateNormal.Border.Color = 15728640
+          StateNormal.Border.Style = bboSolid
+          StateNormal.Border.Width = 3
           StateNormal.FontEx.Color = clWhite
           StateNormal.FontEx.FontQuality = fqSystemClearType
-          StateNormal.FontEx.Name = 'Arial'
+          StateNormal.FontEx.Height = 15
+          StateNormal.FontEx.Name = 'Nexa Extra Light'
           StateNormal.FontEx.Shadow = False
           StateNormal.FontEx.ShadowRadius = 2
           StateNormal.FontEx.ShadowOffsetX = 1
           StateNormal.FontEx.ShadowOffsetY = 1
           StateNormal.FontEx.Style = [fsBold]
+          StateNormal.FontEx.PaddingRight = 4
           BorderSpacing.Left = 10
+          BorderSpacing.Top = 4
+          BorderSpacing.Right = 10
+          BorderSpacing.Bottom = 4
           Caption = 'Open...'
           Color = clNone
           DropDownWidth = 16
@@ -3975,14 +4007,13 @@ object frmMain: TfrmMain
           AnchorSideLeft.Control = btnProcOpen
           AnchorSideLeft.Side = asrBottom
           AnchorSideTop.Control = pnlProcToolBar
-          AnchorSideTop.Side = asrCenter
           Cursor = crHandPoint
-          Left = 191
-          Height = 28
-          Top = 6
-          Width = 72
+          Left = 225
+          Height = 32
+          Top = 5
+          Width = 92
           AutoSize = True
-          StateClicked.Background.Color = 8344320
+          StateClicked.Background.Color = 15728640
           StateClicked.Background.Gradient1.StartColor = 11760640
           StateClicked.Background.Gradient1.EndColor = 8344320
           StateClicked.Background.Gradient1.GradientType = gtLinear
@@ -3998,43 +4029,51 @@ object frmMain: TfrmMain
           StateClicked.Background.Gradient2.Point2XPercent = 50
           StateClicked.Background.Gradient2.Point2YPercent = 40
           StateClicked.Background.Gradient1EndPercent = 50
-          StateClicked.Background.Style = bbsGradient
-          StateClicked.Border.Style = bboNone
+          StateClicked.Background.Style = bbsColor
+          StateClicked.Border.Color = 15728640
+          StateClicked.Border.Style = bboSolid
+          StateClicked.Border.Width = 3
           StateClicked.FontEx.Color = clWhite
           StateClicked.FontEx.FontQuality = fqSystemClearType
-          StateClicked.FontEx.Name = 'Arial'
+          StateClicked.FontEx.Height = 15
+          StateClicked.FontEx.Name = 'Nexa Extra Light'
           StateClicked.FontEx.Shadow = False
           StateClicked.FontEx.ShadowRadius = 2
           StateClicked.FontEx.ShadowOffsetX = 1
           StateClicked.FontEx.ShadowOffsetY = 1
           StateClicked.FontEx.Style = [fsBold]
-          StateHover.Background.Color = 6762532
-          StateHover.Background.Gradient1.StartColor = 9914165
-          StateHover.Background.Gradient1.EndColor = 6762532
+          StateClicked.FontEx.PaddingRight = 4
+          StateHover.Background.Color = 15728640
+          StateHover.Background.Gradient1.StartColor = 15728640
+          StateHover.Background.Gradient1.EndColor = 1708303
           StateHover.Background.Gradient1.GradientType = gtLinear
           StateHover.Background.Gradient1.Point1XPercent = 50
           StateHover.Background.Gradient1.Point1YPercent = 0.100000001490116
           StateHover.Background.Gradient1.Point2XPercent = 50
           StateHover.Background.Gradient1.Point2YPercent = 60
-          StateHover.Background.Gradient2.StartColor = 9914165
-          StateHover.Background.Gradient2.EndColor = 6762532
+          StateHover.Background.Gradient2.StartColor = 15728640
+          StateHover.Background.Gradient2.EndColor = 1708303
           StateHover.Background.Gradient2.GradientType = gtLinear
           StateHover.Background.Gradient2.Point1XPercent = 50
           StateHover.Background.Gradient2.Point1YPercent = 100
           StateHover.Background.Gradient2.Point2XPercent = 50
-          StateHover.Background.Gradient2.Point2YPercent = 40
+          StateHover.Background.Gradient2.Point2YPercent = 30
           StateHover.Background.Gradient1EndPercent = 50
           StateHover.Background.Style = bbsGradient
-          StateHover.Border.Style = bboNone
+          StateHover.Border.Color = 15728640
+          StateHover.Border.Style = bboSolid
+          StateHover.Border.Width = 3
           StateHover.FontEx.Color = clWhite
           StateHover.FontEx.FontQuality = fqSystemClearType
-          StateHover.FontEx.Name = 'Arial'
+          StateHover.FontEx.Height = 15
+          StateHover.FontEx.Name = 'Nexa Extra Light'
           StateHover.FontEx.Shadow = False
           StateHover.FontEx.ShadowRadius = 2
           StateHover.FontEx.ShadowOffsetX = 1
           StateHover.FontEx.ShadowOffsetY = 1
           StateHover.FontEx.Style = [fsBold]
-          StateNormal.Background.Color = 6762532
+          StateHover.FontEx.PaddingRight = 4
+          StateNormal.Background.Color = 1708303
           StateNormal.Background.Gradient1.StartColor = 4194304
           StateNormal.Background.Gradient1.EndColor = 8405056
           StateNormal.Background.Gradient1.GradientType = gtLinear
@@ -4050,65 +4089,104 @@ object frmMain: TfrmMain
           StateNormal.Background.Gradient2.Point2XPercent = 0
           StateNormal.Background.Gradient2.Point2YPercent = 0
           StateNormal.Background.Gradient1EndPercent = 60
-          StateNormal.Background.Style = bbsColor
-          StateNormal.Border.Style = bboNone
+          StateNormal.Background.Style = bbsClear
+          StateNormal.Border.Color = 15728640
+          StateNormal.Border.Style = bboSolid
+          StateNormal.Border.Width = 3
           StateNormal.FontEx.Color = clWhite
           StateNormal.FontEx.FontQuality = fqSystemClearType
-          StateNormal.FontEx.Name = 'Arial'
+          StateNormal.FontEx.Height = 15
+          StateNormal.FontEx.Name = 'Nexa Extra Light'
           StateNormal.FontEx.Shadow = False
           StateNormal.FontEx.ShadowRadius = 2
           StateNormal.FontEx.ShadowOffsetX = 1
           StateNormal.FontEx.ShadowOffsetY = 1
           StateNormal.FontEx.Style = [fsBold]
+          StateNormal.FontEx.PaddingRight = 4
           BorderSpacing.Left = 10
+          BorderSpacing.Top = 4
+          BorderSpacing.Right = 10
+          BorderSpacing.Bottom = 4
           Caption = 'Save'
           Color = clNone
           DropDownWidth = 16
           DropDownArrowSize = 8
           GlobalOpacity = 255
           Glyph.Data = {
-            2A050000424D2A050000000000007A0000006C00000014000000140000000100
-            180000000000B0040000D70D0000D70D00000000000000000000424752730000
-            0000000000000000000000000000000000000000000000000000000000000000
-            0000000000000000000000000000020000000000000000000000000000006730
-            2467302467302467302467302467302467302467302467302467302467302467
-            3024673024673024673024673024673024673024673024673024673024EAE7E7
-            E3DFDFEBE8E8F1EFEFE3DFDFE3DFDFE3DFDFE3DFDFE3DFDFE3DFDFE3DFDFE3DF
-            DFE3DFDFE3DFDFF8F7F7E3DFDFE3DFDFEAE7E7673024673024E3DFDF673024A0
-            8E8CC5BCBB673024673024673024673024673024673024673024673024673024
-            673024E3DFDF673024673024E3DFDF673024673024E3DFDF673024A08E8CC5BC
-            BB673024673024673024673024673024673024673024673024673024673024E3
-            DFDF673024673024E3DFDF673024673024E3DFDF673024A08E8CC5BCBB673024
-            673024673024673024673024673024673024673024673024673024E3DFDF6730
-            24673024E3DFDF673024673024E3DFDF673024A08E8CC5BCBB95807DD3CDCCD3
-            CDCCD3CDCCCCC5C4AA9C9A6E4139673024673024673024E3DFDF673024673024
-            E3DFDF673024673024E3DFDF673024A08E8CC5BCBB77514CA08E8CA08E8C9884
-            82846763754E47673024673024673024673024E3DFDF673024673024E3DFDF67
-            3024673024E3DFDF673024A08E8CC5BCBB978280D3CDCCD3CDCCC6BDBC673024
-            673024673024673024673024673024E3DFDF673024673024E3DFDF6730246730
-            24E3DFDF673024A08E8CD6D1D0A39290A39290A39290A39290A39290A39290A3
-            9290A39290A39290A39290E8E4E4673024673024E3DFDF673024673024E3DFDF
-            673024856965C2B9B7C2B9B7C2B9B7C2B9B7C2B9B7C2B9B7C2B9B7C2B9B7C2B9
-            B7C2B9B7C2B9B7BAAFAE673024673024E3DFDF673024673024E3DFDF67302467
-            3024673024673024673024673024673024673024673024673024673024673024
-            673024673024673024673024E3DFDF673024673024E3DFDF6730246730246730
-            2467302467302467302467302467302467302467302467302467302467302467
-            3024673024673024E3DFDF673024673024E3DFDF673024673024AA9B99D3CDCC
-            D3CDCCD3CDCCD3CDCCD3CDCCD3CDCCD3CDCCD3CDCCD3CDCCC2B9B76730246730
-            24673024E3DFDF673024673024E3DFDF673024673024C8C0BFAD9F9D896F6C89
-            6F6C896F6C896F6C896F6CA08E8CA2908E917B78E4E1E1673024673024673024
-            E3DFDF673024673024E3DFDF673024673024C8C0BF9B88866730246730246730
-            24673024673024EEECEBE7E4E4AA9B99E4E0E0673024673024673024E3DFDF67
-            3024673024E3DFDF673024673024C8C0BF9B8886673024673024673024673024
-            673024E4E0E0BDB3B1AA9B99E4E0E06730246730247B5853E6E2E26730246730
-            24E3DFDF673024673024C8C0BF9B8886673024673024673024673024673024E7
-            E4E4CCC5C4AA9B99E4E0E0673024795550E4E0E09A8785673024673024E3DFDF
-            673024673024C8C0BF9B8886673024673024673024673024673024C4BAB9CBC3
-            C28F7774E4E0E0795550E4E0E09A8785673024673024673024EAE7E7E3DFDFE3
-            DFDFF2F0F0EAE7E7E3DFDFE3DFDFE3DFDFE3DFDFE3DFDFE3DFDFE3DFDFE3DFDF
-            F8F7F7ECE9E99A87856730246730246730246730246730246730246730246730
-            2467302467302467302467302467302467302467302467302467302467302467
-            3024673024673024673024673024
+            36090000424D3609000000000000360000002800000018000000180000000100
+            2000000000000009000064000000640000000000000000000000FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF11FFFFFF60FFFF
+            FFAFFFFFFFD7FFFFFFF3FFFFFFF3FFFFFFD7FFFFFFAEFFFFFF5FFFFFFF10FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF08FFFFFF78FFFFFFF0FFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFF
+            FF76FFFFFF07FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF1BFFFFFFCBFFFFFFFFFFFFFFFFFFFFFFBCFFFF
+            FF66FFFFFF29FFFFFF0CFFFFFF0CFFFFFF29FFFFFF66FFFFFFBDFFFFFFFFFFFF
+            FFFFFFFFFFC9FFFFFF1AFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF1BFFFFFFE3FFFFFFFFFFFFFFDAFFFFFF40FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF41FFFF
+            FFDBFFFFFFFFFFFFFFE2FFFFFF1AFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF08FFFFFFCBFFFFFFFFFFFFFFC2FFFFFF12FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF12FFFFFFC2FFFFFFFFFFFFFFC9FFFFFF08FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF7AFFFFFFFFFFFFFFDEFFFFFF14FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF12FFFFFFDBFFFFFFFFFFFFFF76FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF12FFFFFFF0FFFFFFFFFFFFFF3FFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF41FFFFFFFFFFFFFFEFFFFFFF10FFFFFF00FFFFFF00FFFF
+            FF61FFFFFFFFFFFFFFBBFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF1DFFFFFFAAFFFFFFF1FFFFFFF1FFFFFFA9FFFFFF1CFFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFFBDFFFFFFFFFFFFFF5FFFFFFF00FFFFFF00FFFF
+            FFAFFFFFFFFFFFFFFF64FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF27FFFF
+            FFEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFECFFFFFF1CFFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF66FFFFFFFFFFFFFFADFFFFFF00FFFFFF00FFFF
+            FFD9FFFFFFFFFFFFFF27FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFFAFFFFF
+            FFFFFFFFFFB6FFFFFF1CFFFFFF1DFFFFFFB7FFFFFFFFFFFFFFA9FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF29FFFFFFFFFFFFFFD8FFFFFF00FFFFFF00FFFF
+            FFF2FFFFFFFFFFFFFF0DFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFFF2FFFF
+            FFFFFFFFFF1CFFFFFF00FFFFFF00FFFFFF1DFFFFFFFFFFFFFFF0FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF0DFFFFFFFFFFFFFFF2FFFFFF00FFFFFF00FFFF
+            FFF2FFFFFFFFFFFFFF0DFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFFF2FFFF
+            FFFFFFFFFF1CFFFFFF00FFFFFF00FFFFFF1DFFFFFFFFFFFFFFF1FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF0DFFFFFFFFFFFFFFF2FFFFFF00FFFFFF00FFFF
+            FFD9FFFFFFFFFFFFFF27FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFFACFFFF
+            FFFFFFFFFFB4FFFFFF1BFFFFFF1CFFFFFFB6FFFFFFFFFFFFFFAAFFFFFF00FFFF
+            FF4DFFFFFF4EFFFFFF00FFFFFF28FFFFFFFFFFFFFFD8FFFFFF00FFFFFF00FFFF
+            FFB0FFFFFFFFFFFFFF64FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF1DFFFF
+            FFEDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEFFFFFF1DFFFFFF26FFFF
+            FFFAFFFFFFF2FFFFFF00FFFFFF66FFFFFFFFFFFFFFAEFFFFFF00FFFFFF00FFFF
+            FF62FFFFFFFFFFFFFFBAFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF1DFFFFFFACFFFFFFF2FFFFFFF2FFFFFFAFFFFFFF27FFFFFF07FFFFFFC3FFFF
+            FFFFFFFFFF97FFFFFF00FFFFFFBCFFFFFFFFFFFFFF60FFFFFF00FFFFFF00FFFF
+            FF12FFFFFFF1FFFFFFFFFFFFFF3EFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF25FFFFFFC3FFFFFFFFFFFF
+            FFE0FFFFFF15FFFFFF40FFFFFFFFFFFFFFF0FFFFFF11FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF7BFFFFFFFFFFFFFFD9FFFFFF11FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF4AFFFFFF8DFFFFFFBBFFFFFFFBFFFFFFFFFFFFFFE0FFFF
+            FF2BFFFFFF12FFFFFFDBFFFFFFFFFFFFFF78FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF09FFFFFFCDFFFFFFFFFFFFFFC1FFFFFF11FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFFF1FFFFFFFFFFFFFFFFFFFFFFFAFFFFFF99FFFFFF15FFFF
+            FF11FFFFFFC2FFFFFFFFFFFFFFCBFFFFFF08FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF1CFFFFFFE4FFFFFFFFFFFFFFD9FFFFFF3EFFFFFF00FFFF
+            FF00FFFFFF00FFFFFF4CFFFFFF72FFFFFF54FFFFFF11FFFFFF00FFFFFF3FFFFF
+            FFDAFFFFFFFFFFFFFFE3FFFFFF1BFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF1CFFFFFFCDFFFFFFFFFFFFFFFFFFFFFFBAFFFF
+            FF64FFFFFF27FFFFFF0BFFFFFF0BFFFFFF28FFFFFF65FFFFFFBBFFFFFFFFFFFF
+            FFFFFFFFFFCBFFFFFF1BFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF09FFFFFF7BFFFFFFF1FFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FFFF
+            FF7AFFFFFF09FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF12FFFFFF62FFFF
+            FFB0FFFFFFD8FFFFFFF4FFFFFFF4FFFFFFD8FFFFFFAFFFFFFF61FFFFFF11FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
           }
           GlyphMargin = 0
           OnClick = btnProcSaveClick
@@ -4125,14 +4203,13 @@ object frmMain: TfrmMain
           AnchorSideLeft.Control = btnProcSave
           AnchorSideLeft.Side = asrBottom
           AnchorSideTop.Control = pnlProcToolBar
-          AnchorSideTop.Side = asrCenter
           Cursor = crHandPoint
-          Left = 273
-          Height = 28
-          Top = 6
-          Width = 80
+          Left = 327
+          Height = 32
+          Top = 5
+          Width = 105
           AutoSize = True
-          StateClicked.Background.Color = 8344320
+          StateClicked.Background.Color = 15728640
           StateClicked.Background.Gradient1.StartColor = 11760640
           StateClicked.Background.Gradient1.EndColor = 8344320
           StateClicked.Background.Gradient1.GradientType = gtLinear
@@ -4148,43 +4225,51 @@ object frmMain: TfrmMain
           StateClicked.Background.Gradient2.Point2XPercent = 50
           StateClicked.Background.Gradient2.Point2YPercent = 40
           StateClicked.Background.Gradient1EndPercent = 50
-          StateClicked.Background.Style = bbsGradient
-          StateClicked.Border.Style = bboNone
+          StateClicked.Background.Style = bbsColor
+          StateClicked.Border.Color = 15728640
+          StateClicked.Border.Style = bboSolid
+          StateClicked.Border.Width = 3
           StateClicked.FontEx.Color = clWhite
           StateClicked.FontEx.FontQuality = fqSystemClearType
-          StateClicked.FontEx.Name = 'Arial'
+          StateClicked.FontEx.Height = 15
+          StateClicked.FontEx.Name = 'Nexa Extra Light'
           StateClicked.FontEx.Shadow = False
           StateClicked.FontEx.ShadowRadius = 2
           StateClicked.FontEx.ShadowOffsetX = 1
           StateClicked.FontEx.ShadowOffsetY = 1
           StateClicked.FontEx.Style = [fsBold]
-          StateHover.Background.Color = 6762532
-          StateHover.Background.Gradient1.StartColor = 9914165
-          StateHover.Background.Gradient1.EndColor = 6762532
+          StateClicked.FontEx.PaddingRight = 4
+          StateHover.Background.Color = 15728640
+          StateHover.Background.Gradient1.StartColor = 15728640
+          StateHover.Background.Gradient1.EndColor = 1708303
           StateHover.Background.Gradient1.GradientType = gtLinear
           StateHover.Background.Gradient1.Point1XPercent = 50
           StateHover.Background.Gradient1.Point1YPercent = 0.100000001490116
           StateHover.Background.Gradient1.Point2XPercent = 50
           StateHover.Background.Gradient1.Point2YPercent = 60
-          StateHover.Background.Gradient2.StartColor = 9914165
-          StateHover.Background.Gradient2.EndColor = 6762532
+          StateHover.Background.Gradient2.StartColor = 15728640
+          StateHover.Background.Gradient2.EndColor = 1708303
           StateHover.Background.Gradient2.GradientType = gtLinear
           StateHover.Background.Gradient2.Point1XPercent = 50
           StateHover.Background.Gradient2.Point1YPercent = 100
           StateHover.Background.Gradient2.Point2XPercent = 50
-          StateHover.Background.Gradient2.Point2YPercent = 40
+          StateHover.Background.Gradient2.Point2YPercent = 30
           StateHover.Background.Gradient1EndPercent = 50
           StateHover.Background.Style = bbsGradient
-          StateHover.Border.Style = bboNone
+          StateHover.Border.Color = 15728640
+          StateHover.Border.Style = bboSolid
+          StateHover.Border.Width = 3
           StateHover.FontEx.Color = clWhite
           StateHover.FontEx.FontQuality = fqSystemClearType
-          StateHover.FontEx.Name = 'Arial'
+          StateHover.FontEx.Height = 15
+          StateHover.FontEx.Name = 'Nexa Extra Light'
           StateHover.FontEx.Shadow = False
           StateHover.FontEx.ShadowRadius = 2
           StateHover.FontEx.ShadowOffsetX = 1
           StateHover.FontEx.ShadowOffsetY = 1
           StateHover.FontEx.Style = [fsBold]
-          StateNormal.Background.Color = 6762532
+          StateHover.FontEx.PaddingRight = 4
+          StateNormal.Background.Color = 1708303
           StateNormal.Background.Gradient1.StartColor = 4194304
           StateNormal.Background.Gradient1.EndColor = 8405056
           StateNormal.Background.Gradient1.GradientType = gtLinear
@@ -4200,65 +4285,104 @@ object frmMain: TfrmMain
           StateNormal.Background.Gradient2.Point2XPercent = 0
           StateNormal.Background.Gradient2.Point2YPercent = 0
           StateNormal.Background.Gradient1EndPercent = 60
-          StateNormal.Background.Style = bbsColor
-          StateNormal.Border.Style = bboNone
+          StateNormal.Background.Style = bbsClear
+          StateNormal.Border.Color = 15728640
+          StateNormal.Border.Style = bboSolid
+          StateNormal.Border.Width = 3
           StateNormal.FontEx.Color = clWhite
           StateNormal.FontEx.FontQuality = fqSystemClearType
-          StateNormal.FontEx.Name = 'Arial'
+          StateNormal.FontEx.Height = 15
+          StateNormal.FontEx.Name = 'Nexa Extra Light'
           StateNormal.FontEx.Shadow = False
           StateNormal.FontEx.ShadowRadius = 2
           StateNormal.FontEx.ShadowOffsetX = 1
           StateNormal.FontEx.ShadowOffsetY = 1
           StateNormal.FontEx.Style = [fsBold]
+          StateNormal.FontEx.PaddingRight = 4
           BorderSpacing.Left = 10
+          BorderSpacing.Top = 4
+          BorderSpacing.Right = 10
+          BorderSpacing.Bottom = 4
           Caption = 'Delete'
           Color = clNone
           DropDownWidth = 16
           DropDownArrowSize = 8
           GlobalOpacity = 255
           Glyph.Data = {
-            2A050000424D2A050000000000007A0000006C00000014000000140000000100
-            180000000000B0040000D70D0000D70D00000000000000000000424752730000
-            0000000000000000000000000000000000000000000000000000000000000000
-            0000000000000000000000000000020000000000000000000000000000006730
-            2467302467302467302467302467302467302467302467302467302467302467
-            3024673024673024673024673024673024673024673024673024673024673024
-            673024673024B4A7A6D8D2D2D3CDCCD3CDCCD3CDCCD3CDCCD3CDCCD3CDCCD3CD
-            CCD3CDCCD7D2D1B3A6A567302467302467302467302467302467302467302467
-            3024D7D1D0673024BBB0AFC2B9B7C2B9B7C2B9B7C2B9B7C2B9B7C2B9B7BBB0AF
-            673024D6D1D0673024673024673024673024673024673024673024673024D5CF
-            CE673024846763896F6C896F6C896F6C896F6C896F6C896F6C846763673024D4
-            CECE673024673024673024673024673024673024673024673024D4CECE673024
-            CAC3C2D3CDCCD3CDCCD3CDCCD3CDCCD3CDCCD3CDCCCAC2C1673024D4CECE6730
-            24673024673024673024673024673024673024673024D4CECE673024B2A6A4B8
-            ADACB8ADACB8ADACB8ADACB8ADACB8ADACB2A6A4673024D4CECE673024673024
-            673024673024673024673024673024673024D4CECE673024917A779782809782
-            80978280978280978280978280907875673024D4CECE67302467302467302467
-            30246730246730246730246C3C33D2CCCB673024673024673024673024673024
-            673024673024673024673024673024D3CDCC6C3C336730246730246730246730
-            2467302467302478534ECDC6C567302467302467302467302467302467302467
-            3024673024673024673024CDC6C577514C673024673024673024673024673024
-            673024826460C7BFBE6730246730246730246730246730246730246730246730
-            24673024673024C8C0BF81635F6730246730246730246730246730246730248B
-            716EC2B9B7673024673024673024673024673024673024673024673024673024
-            673024C2B9B88A706D673024673024673024673024673024673024947E7BBCB1
-            B0673024673024673024673024673024673024673024673024673024673024BC
-            B2B1937D7A6730246730246730246730246730246730249B8886B6AAA9673024
-            673024673024673024673024673024673024673024673024673024B7ABA99A87
-            85673024673024673024673024673024673024A39290AFA2A067302467302467
-            3024673024673024673024673024673024673024673024B0A3A1A2918F673024
-            673024673024673024673024673024AA9C9AA899976730246730246730246730
-            24673024673024673024673024673024673024A99A98AA9B9967302467302467
-            3024673024673024673024AD9F9DDEDAD9D3CDCCD3CDCCD3CDCCD3CDCCD3CDCC
-            D3CDCCD3CDCCD3CDCCD3CDCCD3CDCCDEDAD9AD9F9D6730246730246730246730
-            24673024846763C2B9B7C2B9B7C2B9B7C2B9B7C2B9B7C2B9B7C2B9B7C2B9B7C2
-            B9B7C2B9B7C2B9B7C2B9B7C2B9B7C2B9B7846763673024673024673024673024
-            70453E978280978280978280B9AEACC6BEBD9782809782809782809B8886DDD9
-            D897828097828097828097828070453E67302467302467302467302467302467
-            30246730246730246C3C33DAD4D4D4CECED3CDCCD3CDCCDDD9D89B8886673024
-            6730246730246730246730246730246730246730246730246730246730246730
-            2467302467302467302467302467302467302467302467302467302467302467
-            3024673024673024673024673024
+            36090000424D3609000000000000360000002800000018000000180000000100
+            2000000000000009000064000000640000000000000000000000FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF2DFFFFFF70FFFFFF88FFFF
+            FF88FFFFFF88FFFFFF88FFFFFF88FFFFFF88FFFFFF88FFFFFF88FFFFFF70FFFF
+            FF2CFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF02FFFFFF8BFFFFFFFDFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFDFFFFFF89FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF70FFFFFFFFFFFFFFF8FFFFFF9DFFFFFF77FFFF
+            FF77FFFFFF77FFFFFF77FFFFFF77FFFFFF77FFFFFF77FFFFFF77FFFFFF9EFFFF
+            FFF8FFFFFFFFFFFFFF62FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFFD9FFFFFFFFFFFFFF53FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF55FFFFFFFFFFFFFFD7FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFFFCFFFFFFFFFFFFFF06FFFFFF00FFFFFF00FFFF
+            FF4AFFFFFF49FFFFFF00FFFFFF00FFFFFF4AFFFFFF49FFFFFF00FFFFFF00FFFF
+            FF07FFFFFFFFFFFFFFFCFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+            FFF8FFFFFFF7FFFFFF00FFFFFF00FFFFFFF8FFFFFFF7FFFFFF00FFFFFF00FFFF
+            FF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+            FFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFF
+            FF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+            FFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFF
+            FF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+            FFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFF
+            FF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+            FFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFF
+            FF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+            FFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFF
+            FF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+            FFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFF
+            FF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+            FFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFF
+            FF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+            FFF8FFFFFFF8FFFFFF00FFFFFF00FFFFFFF8FFFFFFF8FFFFFF00FFFFFF00FFFF
+            FF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+            FF4CFFFFFF4BFFFFFF00FFFFFF00FFFFFF4CFFFFFF4BFFFFFF00FFFFFF00FFFF
+            FF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF4AFFFFFFFFFFFFFFFFFFFFFF88FFFFFF88FFFFFF88FFFF
+            FF88FFFFFF88FFFFFF88FFFFFF88FFFFFF88FFFFFF88FFFFFF88FFFFFF88FFFF
+            FF88FFFFFFFFFFFFFFFFFFFFFF49FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFFF1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFF0FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF4CFFFFFF77FFFFFF77FFFFFF77FFFFFF77FFFFFFFFFFFF
+            FFFFFFFFFF77FFFFFF77FFFFFF77FFFFFF77FFFFFFFFFFFFFFFFFFFFFF77FFFF
+            FF77FFFFFF77FFFFFF77FFFFFF4BFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFFFFFFFF
+            FFFFFFFFFF88FFFFFF88FFFFFF88FFFFFF88FFFFFFFFFFFFFFFFFFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFFF8FFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF4CFFFF
+            FF77FFFFFF77FFFFFF77FFFFFF77FFFFFF77FFFFFF77FFFFFF4BFFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
           }
           GlyphMargin = 0
           OnClick = btnProcDeleteClick
@@ -4272,19 +4396,17 @@ object frmMain: TfrmMain
           MemoryUsage = bmuHigh
         end
         object btnProcRefreshSelects: TBCButton
-          AnchorSideLeft.Side = asrBottom
           AnchorSideTop.Control = pnlProcToolBar
-          AnchorSideTop.Side = asrCenter
           AnchorSideRight.Control = pnlProcToolBar
           AnchorSideRight.Side = asrBottom
           Cursor = crHandPoint
-          Left = 1215
-          Height = 28
-          Top = 6
-          Width = 44
+          Left = 1211
+          Height = 32
+          Top = 5
+          Width = 48
           Anchors = [akTop, akRight]
           AutoSize = True
-          StateClicked.Background.Color = 8344320
+          StateClicked.Background.Color = 15728640
           StateClicked.Background.Gradient1.StartColor = 11760640
           StateClicked.Background.Gradient1.EndColor = 8344320
           StateClicked.Background.Gradient1.GradientType = gtLinear
@@ -4300,119 +4422,160 @@ object frmMain: TfrmMain
           StateClicked.Background.Gradient2.Point2XPercent = 50
           StateClicked.Background.Gradient2.Point2YPercent = 40
           StateClicked.Background.Gradient1EndPercent = 50
-          StateClicked.Background.Style = bbsGradient
-          StateClicked.Border.Color = 8409856
-          StateClicked.Border.Style = bboNone
-          StateClicked.FontEx.Color = clBlack
-          StateClicked.FontEx.FontQuality = fqFineAntialiasing
-          StateClicked.FontEx.Name = 'Arial'
+          StateClicked.Background.Style = bbsColor
+          StateClicked.Border.Color = 15728640
+          StateClicked.Border.Style = bboSolid
+          StateClicked.Border.Width = 3
+          StateClicked.FontEx.Color = clWhite
+          StateClicked.FontEx.FontQuality = fqSystemClearType
+          StateClicked.FontEx.Height = 15
+          StateClicked.FontEx.Name = 'Nexa Extra Light'
           StateClicked.FontEx.Shadow = False
           StateClicked.FontEx.ShadowRadius = 2
           StateClicked.FontEx.ShadowOffsetX = 1
           StateClicked.FontEx.ShadowOffsetY = 1
           StateClicked.FontEx.Style = [fsBold]
-          StateHover.Background.Color = 9914165
-          StateHover.Background.Gradient1.StartColor = 9914165
-          StateHover.Background.Gradient1.EndColor = 6762532
+          StateHover.Background.Color = 15728640
+          StateHover.Background.Gradient1.StartColor = 15728640
+          StateHover.Background.Gradient1.EndColor = 1708303
           StateHover.Background.Gradient1.GradientType = gtLinear
           StateHover.Background.Gradient1.Point1XPercent = 50
           StateHover.Background.Gradient1.Point1YPercent = 0.100000001490116
           StateHover.Background.Gradient1.Point2XPercent = 50
           StateHover.Background.Gradient1.Point2YPercent = 60
-          StateHover.Background.Gradient2.StartColor = 9914165
-          StateHover.Background.Gradient2.EndColor = 6762532
+          StateHover.Background.Gradient2.StartColor = 15728640
+          StateHover.Background.Gradient2.EndColor = 1708303
           StateHover.Background.Gradient2.GradientType = gtLinear
           StateHover.Background.Gradient2.Point1XPercent = 50
           StateHover.Background.Gradient2.Point1YPercent = 100
           StateHover.Background.Gradient2.Point2XPercent = 50
-          StateHover.Background.Gradient2.Point2YPercent = 40
+          StateHover.Background.Gradient2.Point2YPercent = 30
           StateHover.Background.Gradient1EndPercent = 50
           StateHover.Background.Style = bbsGradient
-          StateHover.Border.Color = 8409856
-          StateHover.Border.Style = bboNone
-          StateHover.FontEx.Color = clBlack
-          StateHover.FontEx.FontQuality = fqFineAntialiasing
-          StateHover.FontEx.Name = 'Arial'
+          StateHover.Border.Color = 15728640
+          StateHover.Border.Style = bboSolid
+          StateHover.Border.Width = 3
+          StateHover.FontEx.Color = clWhite
+          StateHover.FontEx.FontQuality = fqSystemClearType
+          StateHover.FontEx.Height = 15
+          StateHover.FontEx.Name = 'Nexa Extra Light'
           StateHover.FontEx.Shadow = False
           StateHover.FontEx.ShadowRadius = 2
           StateHover.FontEx.ShadowOffsetX = 1
           StateHover.FontEx.ShadowOffsetY = 1
           StateHover.FontEx.Style = [fsBold]
-          StateNormal.Background.Color = 6762532
-          StateNormal.Background.Gradient1.StartColor = 8409856
-          StateNormal.Background.Gradient1.EndColor = 9855488
+          StateNormal.Background.Color = 1708303
+          StateNormal.Background.Gradient1.StartColor = 4194304
+          StateNormal.Background.Gradient1.EndColor = 8405056
           StateNormal.Background.Gradient1.GradientType = gtLinear
           StateNormal.Background.Gradient1.Point1XPercent = 0
           StateNormal.Background.Gradient1.Point1YPercent = 0
           StateNormal.Background.Gradient1.Point2XPercent = 0
-          StateNormal.Background.Gradient1.Point2YPercent = 60
-          StateNormal.Background.Gradient2.StartColor = 8409856
-          StateNormal.Background.Gradient2.EndColor = 9855488
+          StateNormal.Background.Gradient1.Point2YPercent = 100
+          StateNormal.Background.Gradient2.StartColor = 8405056
+          StateNormal.Background.Gradient2.EndColor = 4194304
           StateNormal.Background.Gradient2.GradientType = gtLinear
           StateNormal.Background.Gradient2.Point1XPercent = 50
           StateNormal.Background.Gradient2.Point1YPercent = 100
           StateNormal.Background.Gradient2.Point2XPercent = 0
-          StateNormal.Background.Gradient2.Point2YPercent = 40
-          StateNormal.Background.Gradient1EndPercent = 50
-          StateNormal.Background.Style = bbsColor
-          StateNormal.Border.Color = 8409856
-          StateNormal.Border.Style = bboNone
+          StateNormal.Background.Gradient2.Point2YPercent = 0
+          StateNormal.Background.Gradient1EndPercent = 60
+          StateNormal.Background.Style = bbsClear
+          StateNormal.Border.Color = 15728640
+          StateNormal.Border.Style = bboSolid
+          StateNormal.Border.Width = 3
           StateNormal.FontEx.Color = clWhite
-          StateNormal.FontEx.FontQuality = fqFineAntialiasing
-          StateNormal.FontEx.Name = 'Arial'
+          StateNormal.FontEx.FontQuality = fqSystemClearType
+          StateNormal.FontEx.Height = 15
+          StateNormal.FontEx.Name = 'Nexa Extra Light'
           StateNormal.FontEx.Shadow = False
           StateNormal.FontEx.ShadowRadius = 2
           StateNormal.FontEx.ShadowOffsetX = 1
           StateNormal.FontEx.ShadowOffsetY = 1
           StateNormal.FontEx.Style = [fsBold]
+          BorderSpacing.Left = 10
+          BorderSpacing.Top = 4
           BorderSpacing.Right = 10
+          BorderSpacing.Bottom = 4
           Color = clNone
           DropDownWidth = 16
           DropDownArrowSize = 8
           GlobalOpacity = 255
           Glyph.Data = {
-            2A050000424D2A050000000000007A0000006C00000014000000140000000100
-            180000000000B0040000D70D0000D70D00000000000000000000424752730000
-            0000000000000000000000000000000000000000000000000000000000000000
-            0000000000000000000000000000020000000000000000000000000000006730
-            2467302467302467302467302467302467302467302467302467302467302467
-            3024673024673024673024673024673024673024673024673024673024673024
-            67302467302467302470453E6730246730246730246730246730246730246730
-            2467302467302467302467302467302467302467302467302467302467302467
-            3024A2918FDFDBDA673024673024673024673024673024673024673024673024
-            6730246730246730246730246730246730246730246730246E4139CCC5C4D2CB
-            CBE1DDDD67302467302467302467302467302467302467302467302467302467
-            30246730246730246730246730246730248B716EE3DFDFAC9E9C673024E1DDDC
-            7A57517A57517A57517A57517A57517A57517A57517A5751734C456730246730
-            24673024673024673024673024D1CBCAD2CCCB6B3930673024EDEAEAD3CDCCD3
-            CDCCD3CDCCD3CDCCD3CDCCD3CDCCD3CDCCD3CDCCD9D4D3E3DFDFBBB0AF683328
-            673024673024673024673024B3A6A5E0DCDC866A66DFDBDA6730246730246730
-            246730246730246730246730246730246730246B3930C2B9B8D2CCCB67302467
-            30246730246730246730248B716EE3DFDFE6E3E3673024673024673024673024
-            673024673024673024673024673024673024673024D0CAC9A392906730246730
-            246730246730246730246E4139B5A9A767302467302467302467302467302467
-            3024673024673024673024673024673024826460D5CFCF673024673024673024
-            6730246730246730246730246730246730246730246730246730246730246730
-            24673024673024673024673024673024C7BEBD673024673024C7BEBD67302467
-            3024673024673024673024673024673024673024673024673024673024673024
-            673024673024673024673024673024673024673024D7D1D07F605C6730246730
-            24673024673024673024673024673024673024673024673024673024B5A9A76E
-            4139673024673024673024673024673024A69694CFC8C7673024673024673024
-            673024673024673024673024673024673024673024673024E6E3E3E3DFDF8B71
-            6E673024673024673024673024673024D4CECEC1B7B66B393067302467302467
-            3024673024673024673024673024673024673024DFDBDA866A66E0DCDCB3A6A5
-            673024673024673024673024683328BDB3B1E3DFDFD9D3D3D3CDCCD3CDCCD3CD
-            CCD3CDCCD3CDCCD3CDCCD3CDCCD3CDCCEDEAEA6730246B3930D2CCCBD1CBCA67
-            3024673024673024673024673024673024734C457A57517A57517A57517A5751
-            7A57517A57517A57517A5751E1DDDC673024AC9E9CE3DFDF8B716E6730246730
-            2467302467302467302467302467302467302467302467302467302467302467
-            3024673024673024E1DDDDD2CBCBCCC5C46E4139673024673024673024673024
-            6730246730246730246730246730246730246730246730246730246730246730
-            24673024E1DDDCA8989667302467302467302467302467302467302467302467
-            3024673024673024673024673024673024673024673024673024673024673024
-            70453E6730246730246730246730246730246730246730246730246730246730
-            2467302467302467302467302467302467302467302467302467302467302467
-            3024673024673024673024673024
+            36090000424D3609000000000000360000002800000018000000180000000100
+            2000000000000009000064000000640000000000000000000000FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF2BFFFFFF56FFFFFF75FFFFFF6FFFFFFF5CFFFFFF24FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF08FFFFFF73FFFFFFD7FFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCFFFFFF6DFFFF
+            FF0BFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF3CFFFFFFDAFFFFFFFFFFFFFFFFFFFF
+            FFE5FFFFFFACFFFFFF8BFFFFFF8DFFFFFFACFFFFFFE7FFFFFFFFFFFFFFFFFFFF
+            FFDBFFFFFF36FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF4FFFFFFFF8FFFFFFFFFFFFFFD0FFFFFF49FFFF
+            FF03FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF02FFFFFF4EFFFFFFCFFFFF
+            FFFFFFFFFFFAFFFFFF4DFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF38FFFFFFFAFFFFFFFFFFFFFF8EFFFFFF04FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF06FFFF
+            FF92FFFFFFFFFFFFFFF7FFFFFF3BFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF0BFFFFFFDCFFFFFFFFFFFFFF8EFFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF91FFFFFFFFFFFFFFD9FFFFFF08FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF70FFFFFFFFFFFFFFCCFFFFFF05FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF05FFFFFFD1FFFFFFFFFFFFFF72FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF01FFFFFFDFFFFFFFFFFFFFFF4AFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF4AFFFFFFFFFFFFFFD7FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF27FFFFFFFFFFFFFFE4FFFFFF01FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF03FFFFFFE3FFFFFFFFFFFFFF1EFFFFFF00FFFFFF00FFFF
+            FF5FFFFFFFFFFFFFFFA7FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF3EFFFFFF6CFFFFFF01FFFFFF00FFFFFF00FFFF
+            FF72FFFFFFFFFFFFFF8BFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF78FFFFFFFFFFFFFF88FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF58FFFFFFFFFFFFFFABFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF2BFFFFFFFFFFFFFFE4FFFFFF03FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFFD7FFFFFFFFFFFFFF47FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFFC3FFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFE2FFFFFF48FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF75FFFFFFFFFFFFFFCEFFFFFF04FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFFC5FFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE2FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF09FFFFFFDBFFFFFFFFFFFFFF8CFFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF8EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF3EFFFFFFF8FFFFFFFFFFFFFF8BFFFFFF05FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF03FFFF
+            FF8DFFFFFFFFFFFFFFFAFFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF51FFFFFFFBFFFFFFFFFFFFFFCBFFFFFF49FFFF
+            FF01FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF02FFFFFF47FFFFFFCDFFFF
+            FFFFFFFFFFFBFFFFFF54FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF39FFFFFFDDFFFFFFFFFFFFFFFFFFFF
+            FFE3FFFFFFA8FFFFFF88FFFFFF8BFFFFFFABFFFFFFE4FFFFFFFFFFFFFFFFFFFF
+            FFE1FFFFFF3CFFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0CFFFFFF71FFFFFFE0FFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDDFFFFFF76FFFF
+            FF0AFFFFFF00FFFFFF00FFFFFFFFFFFFFFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF28FFFFFF5EFFFFFF73FFFFFF76FFFFFF57FFFFFF2BFFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFFC5FFFFFFC3FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+            FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
           }
           GlyphMargin = 0
           OnClick = btnProcRefreshSelectsClick
@@ -4429,18 +4592,18 @@ object frmMain: TfrmMain
       end
       object pnlProcessBg: TPanel
         Left = 0
-        Height = 726
-        Top = 40
+        Height = 724
+        Top = 42
         Width = 1270
         Align = alClient
         BevelColor = 15728640
         BevelOuter = bvSpace
-        ClientHeight = 726
+        ClientHeight = 724
         ClientWidth = 1270
         TabOrder = 1
         object sbProcesses: TScrollBox
           Left = 1
-          Height = 724
+          Height = 722
           Top = 1
           Width = 1268
           HorzScrollBar.Increment = 102
@@ -4451,48 +4614,38 @@ object frmMain: TfrmMain
           VertScrollBar.Visible = False
           Align = alClient
           BorderStyle = bsNone
-          ClientHeight = 724
+          ClientHeight = 722
           ClientWidth = 1268
           TabOrder = 0
           object pnlCfgProcesses: TPanel
             Left = 0
-            Height = 724
+            Height = 722
             Top = 0
             Width = 1268
             Align = alClient
             BevelColor = 6762532
             BevelOuter = bvNone
-            ClientHeight = 724
+            ClientHeight = 722
             ClientWidth = 1268
-            Font.Color = clBlack
-            Font.Height = -13
-            Font.Name = 'Arial'
-            Font.Quality = fqCleartype
-            ParentFont = False
             TabOrder = 0
             object pnlProcContainer: TPanel
               Left = 0
-              Height = 724
+              Height = 722
               Top = 0
               Width = 1268
               Align = alClient
               BevelOuter = bvNone
-              ClientHeight = 724
+              ClientHeight = 722
               ClientWidth = 1268
-              Font.Color = clBlack
-              Font.Height = -13
-              Font.Name = 'Arial'
-              Font.Quality = fqCleartype
-              ParentFont = False
               TabOrder = 0
               object pnlMACFields: TPanel
                 Left = 0
-                Height = 724
+                Height = 722
                 Top = 0
                 Width = 416
                 Align = alClient
                 BevelOuter = bvNone
-                ClientHeight = 724
+                ClientHeight = 722
                 ClientWidth = 416
                 TabOrder = 0
                 object edtProcName: TEdit
@@ -4501,18 +4654,13 @@ object frmMain: TfrmMain
                   AnchorSideTop.Control = pnlMACFields
                   AnchorSideRight.Control = pnlMACFields
                   AnchorSideRight.Side = asrBottom
-                  Left = 63
-                  Height = 24
+                  Left = 71
+                  Height = 27
                   Top = 10
-                  Width = 343
+                  Width = 335
                   Anchors = [akTop, akLeft, akRight]
                   BorderSpacing.Around = 10
-                  Color = clWhite
-                  Font.Color = clBlack
-                  Font.Height = -13
-                  Font.Name = 'Arial'
-                  Font.Quality = fqCleartype
-                  ParentFont = False
+                  Color = 3679521
                   TabOrder = 0
                 end
                 object memProcess: TMemo
@@ -4524,19 +4672,15 @@ object frmMain: TfrmMain
                   AnchorSideBottom.Control = pnlMACFields
                   AnchorSideBottom.Side = asrBottom
                   Left = 10
-                  Height = 670
-                  Top = 44
+                  Height = 665
+                  Top = 47
                   Width = 396
                   Anchors = [akTop, akLeft, akRight, akBottom]
                   BorderSpacing.Around = 10
-                  Color = clWhite
-                  Font.Color = clBlack
-                  Font.Height = -13
-                  Font.Name = 'Arial'
-                  Font.Quality = fqCleartype
+                  BorderStyle = bsNone
+                  Color = 3679521
                   HideSelection = False
                   OnEditingDone = memProcessEditingDone
-                  ParentFont = False
                   ScrollBars = ssAutoBoth
                   TabOrder = 1
                   WordWrap = False
@@ -4546,34 +4690,29 @@ object frmMain: TfrmMain
                   AnchorSideTop.Control = edtProcName
                   AnchorSideTop.Side = asrCenter
                   Left = 10
-                  Height = 17
+                  Height = 19
                   Top = 14
-                  Width = 43
+                  Width = 51
                   BorderSpacing.Around = 10
                   Caption = 'Name:'
-                  Font.Color = clBlack
-                  Font.Height = -15
-                  Font.Name = 'Arial'
-                  Font.Quality = fqCleartype
                   ParentColor = False
-                  ParentFont = False
                 end
               end
               object pnlFunctionFields: TPanel
                 Left = 416
-                Height = 724
+                Height = 722
                 Top = 0
                 Width = 852
                 Align = alRight
                 AutoSize = True
                 BevelOuter = bvNone
-                ClientHeight = 724
+                ClientHeight = 722
                 ClientWidth = 852
                 TabOrder = 1
                 object psFunctionSplitter: TPairSplitter
                   Cursor = crVSplit
                   Left = 0
-                  Height = 724
+                  Height = 722
                   Top = 0
                   Width = 852
                   Align = alRight
@@ -4600,21 +4739,16 @@ object frmMain: TfrmMain
                       BevelWidth = 2
                       ClientHeight = 348
                       ClientWidth = 274
-                      Font.Color = clBlack
-                      Font.Height = -13
-                      Font.Name = 'Arial'
-                      Font.Quality = fqCleartype
-                      ParentFont = False
                       TabOrder = 0
                       object pnlProcSelectTtl: TPanel
                         Left = 2
-                        Height = 22
+                        Height = 25
                         Top = 2
                         Width = 270
                         Align = alTop
                         AutoSize = True
                         BevelOuter = bvNone
-                        ClientHeight = 22
+                        ClientHeight = 25
                         ClientWidth = 270
                         Color = 15728640
                         Font.Color = clBlack
@@ -4626,16 +4760,16 @@ object frmMain: TfrmMain
                         TabOrder = 0
                         object lblProcSelectTtl: TLabel
                           Left = 4
-                          Height = 16
+                          Height = 19
                           Top = 2
-                          Width = 147
+                          Width = 125
                           BorderSpacing.Left = 4
                           BorderSpacing.Top = 2
                           BorderSpacing.Bottom = 4
                           Caption = 'Processes (Files)'
                           Font.Color = clWhite
                           Font.Height = -15
-                          Font.Name = 'BankGothic'
+                          Font.Name = 'Nexa Heavy'
                           Font.Quality = fqCleartype
                           Font.Style = [fsBold]
                           ParentColor = False
@@ -4644,20 +4778,16 @@ object frmMain: TfrmMain
                       end
                       object lbProcessSelect: TListBox
                         Left = 8
-                        Height = 310
-                        Top = 30
+                        Height = 307
+                        Top = 33
                         Width = 258
                         Align = alClient
                         BorderSpacing.Around = 6
-                        Color = clWhite
+                        BorderStyle = bsNone
+                        Color = 3679521
                         ExtendedSelect = False
-                        Font.Color = clBlack
-                        Font.Height = -13
-                        Font.Name = 'Arial'
-                        Font.Quality = fqCleartype
                         ItemHeight = 0
                         OnDblClick = lbProcessSelectDblClick
-                        ParentFont = False
                         ScrollWidth = 400
                         Sorted = True
                         TabOrder = 1
@@ -4677,21 +4807,16 @@ object frmMain: TfrmMain
                       BevelWidth = 2
                       ClientHeight = 348
                       ClientWidth = 274
-                      Font.Color = clBlack
-                      Font.Height = -13
-                      Font.Name = 'Arial'
-                      Font.Quality = fqCleartype
-                      ParentFont = False
                       TabOrder = 1
                       object pnlLMCodeSelectTtl: TPanel
                         Left = 2
-                        Height = 22
+                        Height = 25
                         Top = 2
                         Width = 270
                         Align = alTop
                         AutoSize = True
                         BevelOuter = bvNone
-                        ClientHeight = 22
+                        ClientHeight = 25
                         ClientWidth = 270
                         Color = 15728640
                         Font.Color = clBlack
@@ -4703,16 +4828,16 @@ object frmMain: TfrmMain
                         TabOrder = 0
                         object lblLMCodeSelectTtl: TLabel
                           Left = 4
-                          Height = 16
+                          Height = 19
                           Top = 2
-                          Width = 72
+                          Width = 65
                           BorderSpacing.Left = 4
                           BorderSpacing.Top = 2
                           BorderSpacing.Bottom = 4
                           Caption = 'M Codes'
                           Font.Color = clWhite
                           Font.Height = -15
-                          Font.Name = 'BankGothic'
+                          Font.Name = 'Nexa Heavy'
                           Font.Quality = fqCleartype
                           Font.Style = [fsBold]
                           ParentColor = False
@@ -4721,20 +4846,16 @@ object frmMain: TfrmMain
                       end
                       object lbLMCodeSelect: TListBox
                         Left = 8
-                        Height = 310
-                        Top = 30
+                        Height = 307
+                        Top = 33
                         Width = 258
                         Align = alClient
                         BorderSpacing.Around = 6
-                        Color = clWhite
+                        BorderStyle = bsNone
+                        Color = 3679521
                         ExtendedSelect = False
-                        Font.Color = clBlack
-                        Font.Height = -13
-                        Font.Name = 'Arial'
-                        Font.Quality = fqCleartype
                         ItemHeight = 0
                         OnDblClick = lbLMCodeSelectDblClick
-                        ParentFont = False
                         ScrollWidth = 400
                         TabOrder = 1
                       end
@@ -4753,21 +4874,16 @@ object frmMain: TfrmMain
                       BevelWidth = 2
                       ClientHeight = 348
                       ClientWidth = 274
-                      Font.Color = clBlack
-                      Font.Height = -13
-                      Font.Name = 'Arial'
-                      Font.Quality = fqCleartype
-                      ParentFont = False
                       TabOrder = 2
                       object pnlGCodeSelectTtl: TPanel
                         Left = 2
-                        Height = 22
+                        Height = 25
                         Top = 2
                         Width = 270
                         Align = alTop
                         AutoSize = True
                         BevelOuter = bvNone
-                        ClientHeight = 22
+                        ClientHeight = 25
                         ClientWidth = 270
                         Color = 15728640
                         Font.Color = clBlack
@@ -4779,16 +4895,16 @@ object frmMain: TfrmMain
                         TabOrder = 0
                         object lblGCodeSelectTtl: TLabel
                           Left = 4
-                          Height = 16
+                          Height = 19
                           Top = 2
-                          Width = 71
+                          Width = 62
                           BorderSpacing.Left = 4
                           BorderSpacing.Top = 2
                           BorderSpacing.Bottom = 4
                           Caption = 'G Codes'
                           Font.Color = clWhite
                           Font.Height = -15
-                          Font.Name = 'BankGothic'
+                          Font.Name = 'Nexa Heavy'
                           Font.Quality = fqCleartype
                           Font.Style = [fsBold]
                           ParentColor = False
@@ -4797,20 +4913,16 @@ object frmMain: TfrmMain
                       end
                       object lbGCodeSelect: TListBox
                         Left = 8
-                        Height = 310
-                        Top = 30
+                        Height = 307
+                        Top = 33
                         Width = 258
                         Align = alClient
                         BorderSpacing.Around = 6
-                        Color = clWhite
+                        BorderStyle = bsNone
+                        Color = 3679521
                         ExtendedSelect = False
-                        Font.Color = clBlack
-                        Font.Height = -13
-                        Font.Name = 'Arial'
-                        Font.Quality = fqCleartype
                         ItemHeight = 0
                         OnDblClick = lbGCodeSelectDblClick
-                        ParentFont = False
                         ScrollWidth = 400
                         TabOrder = 1
                       end
@@ -4819,14 +4931,14 @@ object frmMain: TfrmMain
                   object pssInputOutput: TPairSplitterSide
                     Cursor = crArrow
                     Left = 0
-                    Height = 357
+                    Height = 355
                     Top = 367
                     Width = 852
                     ClientWidth = 852
-                    ClientHeight = 357
+                    ClientHeight = 355
                     object pnlInputSelect: TPanel
                       Left = 284
-                      Height = 342
+                      Height = 340
                       Top = 5
                       Width = 274
                       Align = alLeft
@@ -4836,23 +4948,18 @@ object frmMain: TfrmMain
                       BorderSpacing.Bottom = 10
                       BevelColor = 15728640
                       BevelWidth = 2
-                      ClientHeight = 342
+                      ClientHeight = 340
                       ClientWidth = 274
-                      Font.Color = clBlack
-                      Font.Height = -13
-                      Font.Name = 'Arial'
-                      Font.Quality = fqCleartype
-                      ParentFont = False
                       TabOrder = 0
                       object pnlInputSelectTtl: TPanel
                         Left = 2
-                        Height = 22
+                        Height = 25
                         Top = 2
                         Width = 270
                         Align = alTop
                         AutoSize = True
                         BevelOuter = bvNone
-                        ClientHeight = 22
+                        ClientHeight = 25
                         ClientWidth = 270
                         Color = 15728640
                         Font.Color = clBlack
@@ -4864,16 +4971,16 @@ object frmMain: TfrmMain
                         TabOrder = 0
                         object lblInputSelectTtl: TLabel
                           Left = 4
-                          Height = 16
+                          Height = 19
                           Top = 2
-                          Width = 55
+                          Width = 47
                           BorderSpacing.Left = 4
                           BorderSpacing.Top = 2
                           BorderSpacing.Bottom = 4
                           Caption = 'Inputs'
                           Font.Color = clWhite
                           Font.Height = -15
-                          Font.Name = 'BankGothic'
+                          Font.Name = 'Nexa Heavy'
                           Font.Quality = fqCleartype
                           Font.Style = [fsBold]
                           ParentColor = False
@@ -4882,27 +4989,23 @@ object frmMain: TfrmMain
                       end
                       object lbInputSelect: TListBox
                         Left = 8
-                        Height = 304
-                        Top = 30
+                        Height = 299
+                        Top = 33
                         Width = 258
                         Align = alClient
                         BorderSpacing.Around = 6
-                        Color = clWhite
+                        BorderStyle = bsNone
+                        Color = 3679521
                         ExtendedSelect = False
-                        Font.Color = clBlack
-                        Font.Height = -13
-                        Font.Name = 'Arial'
-                        Font.Quality = fqCleartype
                         ItemHeight = 0
                         OnDblClick = lbInputSelectDblClick
-                        ParentFont = False
                         ScrollWidth = 400
                         TabOrder = 1
                       end
                     end
                     object pnlOutputSelect: TPanel
                       Left = 0
-                      Height = 342
+                      Height = 340
                       Top = 5
                       Width = 274
                       Align = alLeft
@@ -4911,25 +5014,20 @@ object frmMain: TfrmMain
                       BorderSpacing.Bottom = 10
                       BevelColor = 15728640
                       BevelWidth = 2
-                      ClientHeight = 342
+                      ClientHeight = 340
                       ClientWidth = 274
                       Color = 1708303
-                      Font.Color = clBlack
-                      Font.Height = -13
-                      Font.Name = 'Arial'
-                      Font.Quality = fqCleartype
                       ParentColor = False
-                      ParentFont = False
                       TabOrder = 1
                       object pnlOutputSelectTtl: TPanel
                         Left = 2
-                        Height = 22
+                        Height = 25
                         Top = 2
                         Width = 270
                         Align = alTop
                         AutoSize = True
                         BevelOuter = bvNone
-                        ClientHeight = 22
+                        ClientHeight = 25
                         ClientWidth = 270
                         Color = 15728640
                         Font.Color = clBlack
@@ -4941,16 +5039,16 @@ object frmMain: TfrmMain
                         TabOrder = 0
                         object lblOutputSelectTtl: TLabel
                           Left = 4
-                          Height = 16
+                          Height = 19
                           Top = 2
-                          Width = 70
+                          Width = 60
                           BorderSpacing.Left = 4
                           BorderSpacing.Top = 2
                           BorderSpacing.Bottom = 4
                           Caption = 'Outputs'
                           Font.Color = clWhite
                           Font.Height = -15
-                          Font.Name = 'BankGothic'
+                          Font.Name = 'Nexa Heavy'
                           Font.Quality = fqCleartype
                           Font.Style = [fsBold]
                           ParentColor = False
@@ -4959,20 +5057,16 @@ object frmMain: TfrmMain
                       end
                       object lbOutputSelect: TListBox
                         Left = 8
-                        Height = 304
-                        Top = 30
+                        Height = 299
+                        Top = 33
                         Width = 258
                         Align = alClient
                         BorderSpacing.Around = 6
-                        Color = clWhite
+                        BorderStyle = bsNone
+                        Color = 3679521
                         ExtendedSelect = False
-                        Font.Color = clBlack
-                        Font.Height = -13
-                        Font.Name = 'Arial'
-                        Font.Quality = fqCleartype
                         ItemHeight = 0
                         OnDblClick = lbOutputSelectDblClick
-                        ParentFont = False
                         ScrollWidth = 400
                         TabOrder = 1
                       end
